@@ -1,0 +1,21 @@
+Generic single-database configuration.
+
+to create alembic project:
+
+1. install alembic package:
+pip install alembic
+
+2. to create project:
+alembic init alembic
+
+3. config the env.py file according to your database.
+
+4. to make migrations:
+    alembic revision --autogenerate -m "message"
+    alembic upgrade head
+
+5. to revert last migeration:
+    alembic downgrade -1
+
+6. to revert all migrations:
+    alembic downgrade base

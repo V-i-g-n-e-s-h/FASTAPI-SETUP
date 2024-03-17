@@ -1,0 +1,8 @@
+python-dotenv
+pydantic_settings
+fastapi
+uvicorn
+passlib
+cryptography
+sqlalchemy
+alembic
